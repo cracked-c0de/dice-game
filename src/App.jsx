@@ -25,7 +25,7 @@ function App() {
   }
   return(
     <div>
-      <h1 className="flex justify-center mt-3 shadow-lg shadow-white pb-2 lg:text-3xl md:text-2xl">Welcome to Epic Dice Battle!</h1>
+      <h1 className="flex justify-center mt-3 shadow-lg shadow-white pb-2 lg:text-3xl md:text-2xl sm:text-base">Welcome to Epic Dice Battle!</h1>
       <div className="text-center h-screen m-2 p-3 lg:text-xl md:text-base">
         <p className="m-3 p-3">Status: {status}</p>
         <p className="m-3 p-3">Player: {player}</p>
