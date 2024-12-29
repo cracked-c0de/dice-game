@@ -25,12 +25,12 @@ function App() {
   }
   return(
     <div>
-      <h1 className="flex justify-center mt-3 shadow-lg shadow-white pb-2 lg:text-3xl md:text-2xl sm:text-base">Welcome to Epic Dice Battle!</h1>
-      <div className="text-center h-screen m-2 p-3 lg:text-xl md:text-base">
+      <h1 className="flex justify-center mt-3 shadow-lg shadow-white pb-2 lg:text-3xl md:text-2xl sm: text-sm pl-4">Welcome to Epic Dice Battle!</h1>
+      <div className="text-center h-screen m-2 p-3 lg:text-xl md:text-base sm: text-sm">
         <p className="m-3 p-3">Status: {status}</p>
         <p className="m-3 p-3">Player: {player}</p>
         <p className="m-3 p-3">Bot: {bot}</p>
-        <button onClick={() => roll()} className="*:m-3 bg-amber-200 pl-3 pr-3 pt-2 pb-2 border-spacing-2 border-2 border-black rounded-2xl transition-all delay-200">Roll</button>
+        <button onClick={() => roll()} className="m-3 bg-amber-200 pl-3 pr-3 pt-2 pb-2 border-spacing-2 border-2 border-black rounded-2xl transition-all delay-200 sm: text-sm">Roll</button>
       </div>
     </div>
   )
