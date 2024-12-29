@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        overflow: hidden;
+    }
+    body {
+        font-family: "Press Start 2P", serif;
+        @apply bg-amber-300
+    }
+    button:hover {
+        box-shadow: 3px 3px 6px #000;
+    }
+}
